@@ -21,3 +21,13 @@ docker run -t searchsploit:1 Wordpress
 ```bash
 docker run  -v $(pwd)/sync:/app/ -t searchsploit:1 -m php/webapps/47436.txt
 ```
+
+## Making an alias
+
+If you want to call this as `searchsploit` you can do the below
+
+```bash
+alias searchsploit="docker run  -v $(pwd)/sync:/app/ -t searchsploit:1"
+```
+
+Note: this will only work in your current directory.
