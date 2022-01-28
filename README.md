@@ -46,3 +46,6 @@ alias searchsploit="docker run  -v $(pwd)/sync:/app/ -t searchsploit:alpine"
 ```
 
 Note: this will only work in your current directory.
+---
+
+Code avalible at: git@github.com:userbradley/searchsploit-docker.git
